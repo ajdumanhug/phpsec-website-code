@@ -14,7 +14,7 @@ if (isset($_COOKIE['items'])) {
     $total = 0;
     foreach($items as $item) {
         $total += $item->price;
-        $view .= "<tr><td><input type=\"checkbox\"></td><td>{$item->title}</td><td>1</td><td>MYR {$item->price}</td><td>MYR {$item->price}</td></tr>";
+        $view .= "<tr><td><input type=\"checkbox\"></td><td>{$item->title}</td><td>1</td><td>PHP {$item->price}</td><td>PHP {$item->price}</td></tr>";
     }
 }
 
